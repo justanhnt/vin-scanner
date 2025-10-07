@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* QuaggaJS video styling */
+#interactive.viewport {
+  position: relative;
+  width: 100%;
+}
+
+#interactive.viewport video,
+#interactive.viewport canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive.viewport canvas.drawingBuffer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
